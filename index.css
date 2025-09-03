@@ -12,13 +12,14 @@
     body {
         margin: 0;
         padding: 0;
+        background-color: black;
     }
 
     .navbar {
-        background-color: aquamarine;
+        background-color: rgb(128, 128, 128);
         box-shadow: 10px black;
     }
-
+    
     .menu li, .middle-box, .right-box {
         display: none;
     }
@@ -46,12 +47,12 @@
      }
 
      .search-input input:focus {
-        outline: 2px solid rgb(67, 242, 254);
+        /* outline: 2px solid rgb(67, 242, 254); */
         border-radius: 13px;
      }
 
      .search-input button {
-        background-color: red;
+        background-color: rgb(182, 111, 5);
         color: white;
         border: none;
         font-size: 18px;
@@ -64,8 +65,46 @@
      .search-input button:hover {
         transform: translateY(4px);
         box-shadow: 0 2px 0 #757575;
-        outline: 2px solid sandybrown;
-        border-radius: 10px;
+        /* outline: 2px solid sandybrown; */
+        /* border-radius: 10px; */
      } 
+
+     .cta-div {
+        background-color: #4843dff2;
+        height: 200px;
+        text-align: center;
+        border-radius: 10px;
+     }
+
+     .cta-btn {
+        height: 25%;
+        width: 95%;
+        font-size: 17px;
+        border-radius: 12px;
+        font-weight: 500;
+        background-color: black;
+        color: white;
+        /* border: none; */
+        border: 3px solid white;
+        transition: all 0.5s ease;
+     }
+
+      .cta-btn:hover {
+        background-color: rgb(182, 111, 5);
+      }
+
+      footer {
+        background-color: black;
+        margin: 0;
+      }
+
+      .footer-list li {
+        list-style: none;
+      }
+
+      .footer-list a {
+        text-decoration: none;
+      }
+
 
 }
