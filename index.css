@@ -1,10 +1,70 @@
-.menu-btn {
+.navbar {
+        background-color: rgb(128, 128, 128);
+        box-shadow: 10px black;
+    }
+
+.menu-btn, .search-input {
     display: none;
 }
 
-.search-input {
-    display: none;
+.middle-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    height: 35px;
+    border: none;
 }
+
+.middle-box input {
+    width: 80%;
+    height: 100%;
+    border-radius: none;
+    padding-left: 20px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.middle-box button {
+    width: 20%;
+    border: none;
+    height: 100%;
+    background-color: rgb(182, 111, 5);
+    transition: all 0.5s ease;
+}
+
+.middle-box button:hover {
+    background-color: rgb(116, 99, 75);
+    border: 2px solid rgb(255, 157, 9);
+    border-radius: 3px;
+}
+
+.login-btn {
+    height: 35px;
+    border: none;
+    background: none;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: rgb(182, 111, 5);
+    outline: 2px solid rgb(203, 197, 197);
+    transition: all 0.4s ease;
+}
+
+.signin-btn {
+    height: 35px;
+    border: none;
+    background: none;
+    border-radius: 5px;
+}
+
+.signin-btn:hover {
+    background-color: rgb(203, 197, 197);
+    outline: 2px solid rgb(182, 111, 5);
+    transition: all 0.4s ease;
+}
+
 
 
 @media (max-width: 600px) {
@@ -29,45 +89,49 @@
     font-size: 20px;
 }
 
+    .login-btn {
+    height: 35px;
+    border: none;
+    background-color: rgb(203, 197, 197);
+    outline: 2px solid rgb(182, 111, 5);
+}
+
+
+    .signin-btn {
+    height: 35px;
+    border: none;
+    background-color: rgb(182, 111, 5);
+    outline: 2px solid rgb(203, 197, 197);
+}
+
     .search-input {
         display: flex;
         justify-content: center;
-        gap: 10px;
-        margin-top: 20px;
+        background-color: white;
+        width: 350px;
+        height: 40px;
+        margin: 12px 42px 12px 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+        overflow: hidden;
     }
 
-     .search-input input {
-        border: 1px solid black;
-        width: 250px;
-        border-radius: 13px;
-        padding-left: 20px;
-        height: 40px;
-        font-size: 21px;
-        box-shadow:5px 5px 10px black;
-     }
-
-     .search-input input:focus {
-        /* outline: 2px solid rgb(67, 242, 254); */
-        border-radius: 13px;
-     }
-
-     .search-input button {
-        background-color: rgb(182, 111, 5);
-        color: white;
+    .search-input input {
+        width: 70%;
+        outline: none;
         border: none;
-        font-size: 18px;
-        border-radius: 10px;
-        box-shadow: 0 6px 0 #b3b3b3;
-        transition: all 0.3s ease;
-        position: relative;
-     }
+        padding-left: 10px;
+        
+    }
 
-     .search-input button:hover {
-        transform: translateY(4px);
-        box-shadow: 0 2px 0 #757575;
-        /* outline: 2px solid sandybrown; */
-        /* border-radius: 10px; */
-     } 
+    .search-input button {
+        width: 30%;
+        border: 1px solid black;
+        color: white;
+        background-color: black;
+        font-size: 18px;
+    }
+
 
      .cta-div {
         background-color: #4843dff2;
