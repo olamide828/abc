@@ -9,6 +9,11 @@
 
 @media (max-width: 600px) {
 
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .navbar {
         background-color: aquamarine;
         box-shadow: 10px black;
@@ -42,6 +47,7 @@
 
      .search-input input:focus {
         outline: 2px solid rgb(67, 242, 254);
+        border-radius: 13px;
      }
 
      .search-input button {
@@ -50,10 +56,16 @@
         border: none;
         font-size: 18px;
         border-radius: 10px;
+        box-shadow: 0 6px 0 #b3b3b3;
+        transition: all 0.3s ease;
+        position: relative;
      }
 
      .search-input button:hover {
+        transform: translateY(4px);
+        box-shadow: 0 2px 0 #757575;
         outline: 2px solid sandybrown;
+        border-radius: 10px;
      } 
 
 }
