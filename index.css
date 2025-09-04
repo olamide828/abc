@@ -86,22 +86,13 @@
 
     .menu-btn {
     display: block;
-    font-size: 20px;
+    font-size: 30px;
+    margin-right: 20px;
 }
 
-    .login-btn {
-    height: 35px;
-    border: none;
-    background-color: rgb(203, 197, 197);
-    outline: 2px solid rgb(182, 111, 5);
-}
-
-
-    .signin-btn {
-    height: 35px;
-    border: none;
-    background-color: rgb(182, 111, 5);
-    outline: 2px solid rgb(203, 197, 197);
+    .right-box, .login-btn, .signin-btn {
+        display: none;
+    }
 }
 
     .search-input {
@@ -129,7 +120,7 @@
         border: 1px solid black;
         color: white;
         background-color: black;
-        font-size: 18px;
+        font-size: 16px;
     }
 
 
@@ -143,14 +134,19 @@
      .cta-btn {
         height: 25%;
         width: 95%;
-        font-size: 17px;
         border-radius: 12px;
-        font-weight: 500;
         background-color: black;
         color: white;
         /* border: none; */
         border: 3px solid white;
         transition: all 0.5s ease;
+     }
+
+     .cta-btn a {
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
      }
 
       .cta-btn:hover {
