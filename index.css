@@ -110,6 +110,7 @@
         color: black;
         font-weight: bold;
         font-size: 16px;
+        transition: all 0.8s ease;
     }
 
     .search-btn:hover {
