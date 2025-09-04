@@ -103,8 +103,7 @@
         height: 40px;
         margin: 12px 42px 12px 30px;
         border: 1px solid black;
-        border-radius: 10px;
-        overflow: hidden;
+
     }
 
     .search-input input {
@@ -134,7 +133,6 @@
      .cta-btn {
         height: 25%;
         width: 95%;
-        border-radius: 12px;
         background-color: black;
         color: white;
         /* border: none; */
